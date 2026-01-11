@@ -6,6 +6,35 @@ This project demonstrates a comprehensive data warehousing and analytics solutio
 ---
 ## Data Architecture
 
+The data architecture for this project follows Medallion Architecture **Bronze**, **Silver**, and **Gold** layers:
+![Data Architecture](<docs/Data Architecture.png>)
+
+1. **Bronze Layer**: Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.
+2. **Silver Layer**: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
+3. **Gold Layer**: Houses business-ready data modeled into a star schema required for reporting and analytics.
+
+---
+## Data Flow Diagram
+
+![Data Flow Diagram](<docs/Data Flow Diagram.png>)
+
+---
+## Data Integration
+
+![Data Integration](<docs/Data Integration.png>)
+
+---
+## Sales Data Mart
+
+![Sales Data Mart](<docs/Sales Data Mart.png>)
+
+## Data Warehouse Project Plan (Notion)
+
+Link to Notion site: [Notion DWH Project Plan](https://www.notion.so/izundu/2e0d9454aab980b38d7be0fa72958f5b?v=2e0d9454aab980a3b262000cf8f21ee6&source=copy_link)
+
+![DWH Project Plan](<docs/DWH Project Plan.png>)
+
+
 ---
 ## Project Overview
 
